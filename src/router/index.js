@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Hello from '@/components/Hello'
+// import Mates from '@/components/Mates'
+import Mirror from '@/components/Mirror'
 
 Vue.use(Router)
 
@@ -8,8 +9,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Hello',
-      component: Hello
+      name: 'Mirror',
+      component: Mirror
     }
   ]
 })
