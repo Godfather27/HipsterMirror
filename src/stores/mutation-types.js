@@ -1,1 +1,2 @@
 export const RECEIVE_MATES = 'RECEIVE_MATES'
+export const RECEIVE_WEATHER = 'RECEIVE_WEATHER'
